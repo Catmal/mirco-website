@@ -1,0 +1,53 @@
+// app global css in SCSS form
+.menu {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    // background-image: linear-gradient( to right, $primary 0%, $dark 81%, $dark 90%);
+    // background-size: 200% auto;
+    // transition: background-position 0.9s;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 6vw;
+    line-height: 4vw;
+    @media only screen and(max-width: 900px) {
+        font-size: 9vw;
+        line-height: 9vw;
+    }
+}
+
+h2 {
+    font-size: 4vw;
+    @media only screen and(max-width: 900px) {
+        font-size: 7vw;
+        line-height: 7vw;
+    }
+}
+
+h3 {
+    font-size: 3.5vw;
+    @media only screen and(max-width: 900px) {
+        font-size: 7vw;
+        line-height: 7vw;
+    }
+}
+
+.bkg {
+
+    display: block;
+    width: 100vw;
+    height: 100vh;
+
+
+}
