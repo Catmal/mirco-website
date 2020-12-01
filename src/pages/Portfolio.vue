@@ -1,10 +1,10 @@
 <template>
   <div>
-    <q-page v-show="!show_portfolio_item" class="flex flex-center bg-info">
+    <q-page v-show="!show_portfolio_item" class="flex flex-center bg-info" >
       <div>
         <transition name="title-fade">
           <h1 class="text-dark text-center">
-            <q-icon size="82px" name="style" color="secondary" />Portfolio
+            <q-icon size="82px" name="assesment" color="secondary" />Portfolio
           </h1>
         </transition>
         <div class="flex flex-center">
@@ -98,7 +98,6 @@ export default {
       this.position = position;
       this.$store.commit("PortfolioStore/SET_WEBAPPS_OPEN");
     },
-
     closeDialogWebsites() {
       this.$store.commit("PortfolioStore/SET_WEBSITES_CLOSED");
     },

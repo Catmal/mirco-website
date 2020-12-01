@@ -9,8 +9,8 @@ let transporter = nodemailer.createTransport({
 	port: 465,
 	secure: true,
 	auth: {
-		user: "mircospace@gmail.com",
-		pass: "7QtuVQVbp9Bt9t7"
+		user: process.env.VUE_APP_EMAIL,
+		pass: process.env.VUE_APP_PASSWORD
 	}
 });
 exports.sendMail = functions.https.onRequest((req, res) => {

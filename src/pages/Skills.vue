@@ -35,11 +35,11 @@
         ></q-btn>
       </div>
       <q-dialog v-model="frontend" :position="position">
-        <div class="flex flex-column q-pa-md bg-dark">
+        <div class="flex flex-column q-pa-md bg-white">
           <div style="width: 1000px; max-width: 80vw;">
             <q-toolbar>
               <q-toolbar-title>
-                <h3 class="text-info text-weight-thin">Frontend</h3>
+                <h3 class="text-primary text-weight-thin">Frontend</h3>
               </q-toolbar-title>
               <q-space />
               <q-btn
@@ -60,11 +60,11 @@
         </div>
       </q-dialog>
       <q-dialog v-model="backend" :position="position">
-        <div class="flex flex-column q-pa-md bg-dark">
+        <div class="flex flex-column q-pa-md bg-white">
           <div style="width: 1000px; max-width: 80vw;">
             <q-toolbar>
               <q-toolbar-title>
-                <h3 class="text-info text-weight-thin">Backend</h3>
+                <h3 class="text-primary text-weight-thin">Backend</h3>
               </q-toolbar-title>
               <q-space />
             </q-toolbar>
